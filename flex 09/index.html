@@ -8,8 +8,10 @@
         div.container{
             background-color: rgba(0, 0, 0, 0.212);
             display: flex;
-            height: 400px;
-            align-items: flex-start;
+            height: 500px;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-content: center;
             
         }
         div.item{
@@ -17,26 +19,17 @@
             text-align: center;
             border: 1px solid black;
             padding: 10px;
-        }
-        div#A{
-            order: 2;
+            flex-basis: 50px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item" id="A">A</div>
-        <div class="item" id="B">B</div>
+        <div class="item" id="B">conteudo maior</div>
         <div class="item" id="C">C</div>
-        <div class="item" id="D">D</div>
+        <div class="item" id="D">Conteudo beeeeem maior</div>
         <div class="item" id="E">E</div>
-        <div class="item" id="F">F</div>
-        <div class="item" id="G">G</div>
-        <div class="item" id="H">H</div>
-        <div class="item" id="I">I</div>
-        <div class="item" id="J">J</div>
-        <div class="item" id="K">K</div>
-        <div class="item" id="L">L</div>
     </div>
 </body>
 </html>
